@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  sex: MyString
+  race: MyString
+  date_of_birth: 2022-03-31
+  observation_id: 1
+  notes: MyString
+
+two:
+  name: MyString
+  sex: MyString
+  race: MyString
+  date_of_birth: 2022-03-31
+  observation_id: 1
+  notes: MyString

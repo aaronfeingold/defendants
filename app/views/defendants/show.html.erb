@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @defendant.name %>
+</p>
+
+<p>
+  <strong>Sex:</strong>
+  <%= @defendant.sex %>
+</p>
+
+<p>
+  <strong>Race:</strong>
+  <%= @defendant.race %>
+</p>
+
+<p>
+  <strong>Date of birth:</strong>
+  <%= @defendant.date_of_birth %>
+</p>
+
+<p>
+  <strong>Observation:</strong>
+  <%= @defendant.observation_id %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @defendant.notes %>
+</p>
+
+<%= link_to 'Edit', edit_defendant_path(@defendant) %> |
+<%= link_to 'Back', defendants_path %>
